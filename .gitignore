@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Huấn luyện & Mô hình (Nặng, không nên đưa lên Git)
+checkpoints/
+fine_tuned_wisdom_model_v1/
+*.bin
+*.pt
+*.pth
+
+# Dữ liệu & Log
+*.log
+.ipynb_checkpoints/
